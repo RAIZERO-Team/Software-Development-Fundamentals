@@ -1,0 +1,6 @@
+# connection to DataBase
+
+## Objective: 
+connection with Database (MySql , sqlserver , sqlite .......etc) 
+## Requirements:
+- use your languge and write code connect it with database using any ide sush as Mysql , SqlServe  , .... etc
