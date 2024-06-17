@@ -8,7 +8,7 @@ _1. Objects and Classes_
 
 _2. Encapsulation_  
 
-    Encapsulation is the principle of bundling the data (attributes) and methods (functions) that operate on the data into a single unit, typically a class.
+    Encapsulation is  the principle of bundling the data (attributes) and methods (functions) that operate on the data into a single unit, typically a class.
     It restricts direct access to some of an object's components, which can prevent the accidental modification of data.
     Access Modifiers: Control the visibility of class members.
     Private: Accessible only within the class.
