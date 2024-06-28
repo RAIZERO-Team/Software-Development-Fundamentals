@@ -72,5 +72,19 @@
 
 ## 16.connection with database
 
+
+1  >> 3  clasess and objects
+4  >> 6  Relationships
+7  >> 8  overloading and overriding
+9  >> 13 inheritance
+14 >> 16 Abstraction
+17 >>    Exception Handling
+18 >>    SOLID Principles
+19 >>    Database Connection
+
+
+
+
+
     
     

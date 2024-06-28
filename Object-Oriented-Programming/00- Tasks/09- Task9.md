@@ -1,4 +1,4 @@
-#  Program: Shape and Circle Classes
+#  Program: single inhertance
 
 ## Objective
 
