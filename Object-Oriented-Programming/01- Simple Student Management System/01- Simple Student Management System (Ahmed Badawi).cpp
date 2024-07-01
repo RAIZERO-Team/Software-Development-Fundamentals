@@ -63,13 +63,13 @@ int main(){
 
   // Student 1 details
   Student std1;
-  std1.setName("Jhon Doe");
+  std1.setName("Ahmed Badawi");
   std1.setAge(22);
   std1.setGrade(3.87);
   std1.printData();
 
   // Student 2 details
-  Student std2("Jhon Doe", 22, 3.87);
+  Student std2("Ahmed Badawi", 22, 3.87);
   std2.printData();
 
   return 0;
