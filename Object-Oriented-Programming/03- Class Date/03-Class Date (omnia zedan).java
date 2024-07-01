@@ -1,9 +1,7 @@
+//Author: omnia zedan
 import java.util.Calendar;
 
-/**
- *
- * @author 3M.T
- */
+
 public class Date {
  private int day;
     private int month;
@@ -66,10 +64,9 @@ private boolean isValidDate(int day, int month, int year) {
 
     public int subtractDate(Date d) {
         Calendar c1 = Calendar.getInstance();
-        c1.set(this.year, this.month - 1, this.day); // month is 0-based in Calendar
+        c1.set(this.year, this.month - 1, this.day); 
         Calendar c2 = Calendar.getInstance();
-        c2.set(d.year, d.month - 1, d.day); // month is 0-based in Calendar
-
+        c2.set(d.year, d.month - 1, d.day); 
         long c3 = Math.abs(c1.getTimeInMillis() - c2.getTimeInMillis());
         return (int) (c3 / (1000 * 60 * 60 * 24));
     }
