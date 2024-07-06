@@ -74,7 +74,7 @@ class University {
 
     public static void main(String[] args) {
        University university = new University("EELU", 10);
-        university.addDepartment(new Departments("IT", "Sohag", "Dr/ Ali Mostafa"));
+        university.addDepartment(new Departments("IT", "Sohag", " Dr/ Ali Mostafa "));
      
         university.detilsOfDepartment();
     }
