@@ -6,7 +6,6 @@ using namespace std;
 class Student
 {
 private:
-  // Private data members
   string name;
   int age;
   double grade;
