@@ -1,4 +1,5 @@
 //Author:omnia zedan
+
 public class City {
     private String cityName;
     public City(String cityName){
@@ -62,12 +63,12 @@ public void nameOfState() {
         
         for (int i = 0; i < State.length; i++) {
             if (State[i] != null) {
-                System.out.println("State Name: " +State[i].getstateName());
+                System.out.println("State Name : " +State[i].getstateName());
             }}}
     public static void main(String[] args) {
        
         Country c=new Country("Egypt");
-          State c1=new State("Cairo");
+          State c1=new State(" Cairo ");
       City c2=new City("Giza");
       c.addStates(c1);
       c1.addcity(c2);
