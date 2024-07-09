@@ -46,9 +46,22 @@ class Fraction :
         newFraction.__numerator = self.__numerator * newInstanc.__denominator 
         newFraction.__denominator = self.__denominator * newInstanc.__numerator
         return newFraction 
-
+    
+    def __eq__(self, newInstance):
+        if self.__numerator * newInstance.__denominator == self.__denominator * newInstance.__numerator:
+            return "True"
+        else:
+            return "False"
+    
+    def __ne__(self, newInstance):
+        if self.__numerator * newInstance.__denominator != self.__denominator * newInstance.__numerator:
+            return "True"
+        else:
+            return "False"
+    
     def print(self):
         return f"{self.__numerator}/{self.__denominator}"
+    
 
 n1Num = int(input("Enter the numerator to 1 fraction : "))
 n1Den = int(input("Enter the denominator to 1 fraction : "))
@@ -65,3 +78,7 @@ print(f"{n1.print()} + {n2.print()} = {(n1 + n2).print()}")
 print(f"{n1.print()} - {n2.print()} = {(n1 - n2).print()}")
 print(f"{n1.print()} * {n2.print()} = {(n1 * n2).print()}")
 print(f"{n1.print()} / {n2.print()} = {(n1 / n2).print()}")
+
+print("Checking equality:")
+print(f"{n1.print()} == {n2.print()} : {n1 == n2}")
+print(f"{n1.print()} != {n2.print()} : {n1 != n2}")
