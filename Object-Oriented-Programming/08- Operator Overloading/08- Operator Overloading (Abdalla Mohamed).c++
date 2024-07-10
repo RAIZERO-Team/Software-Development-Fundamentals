@@ -71,35 +71,27 @@ using namespace std;
   };
 int main()
 {
-    cout<<"The operator (+) is = ";
     Fraction F1(5,10);
     Fraction F2(15, 20);
+    cout<<"The operator (+) is = ";
     Fraction F3=F1+F2;
     F3.print_Fraction();
     cout<<endl;
     cout<<"-----------------------------------------"<<endl;
     cout<<"The operator (-) is = ";
-    Fraction F4(5,10);
-    Fraction F5(15, 20);
-    Fraction F6=F4-F5;
+    Fraction F6=F1-F2;
     F6.print_Fraction();cout<<endl;
     cout<<"-----------------------------------------"<<endl;
     cout<<"The operator (*) is = ";
-    Fraction F7(5,10);
-    Fraction F8(15, 20);
-    Fraction F9=F7*F8;
+    Fraction F9=F1*F2;
     F9.print_Fraction();cout<<endl;
     cout<<"-----------------------------------------"<<endl;
     cout<<"The operator (/) is = ";
-    Fraction F10(5,10);
-    Fraction F11(15, 20);
-    Fraction F12=F10/F11;
+    Fraction F12=F1/F2;
     F12.print_Fraction();cout<<endl;
     cout<<"-----------------------------------------"<<endl;
     cout<<"The operator == "<<endl;
-   Fraction F13(10,10);
-   Fraction F14(10, 10);
-    if (F13 == F14)
+    if (F1 == F2)
     {
         cout <<"This are Equal"<<endl;
     }
@@ -109,9 +101,7 @@ int main()
     }
     cout<<"-----------------------------------------"<<endl;
     cout<<"The operator !="<<endl;
-   Fraction F15(10,10);
-   Fraction F16(10,10);
-    if (F15 != F16)
+    if (F1 != F2)
     {
         cout <<"This are Equal"<<endl;
     }
@@ -119,6 +109,5 @@ int main()
     {
          cout <<"This are not Equal"<<endl;
     }
-
     return 0;
 }
