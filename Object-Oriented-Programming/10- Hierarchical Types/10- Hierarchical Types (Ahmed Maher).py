@@ -26,7 +26,7 @@ class Bike(Vehicle):
         return f"{super().displayInfo()} \nNumber of gears: {self.numGears}"
     
 myCar = Car("BMW", "X6", 4)
-myBike = Bike("Porsche", "911", 2)
+myBike = Bike("Honda", "CBR300R", 6)
 
 print(myCar.displayInfo())
 print(myBike.displayInfo())
