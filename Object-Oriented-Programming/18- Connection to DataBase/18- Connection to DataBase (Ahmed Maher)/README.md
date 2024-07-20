@@ -17,7 +17,7 @@ To customize the script for your environment, follow these steps:
     - Change the `host`, `user`, `password`, and `database` parameters to match your local MySQL server configuration.
 
     ```python
-    manage = DatabaseManager('127.0.0.1', 'root', 'mody', 'film_database')
+    manage = DatabaseManager('127.0.0.1', 'root', 'Maher', 'film_database')
     ```
 
     - `host`: The address of your MySQL server (e.g., `'127.0.0.1'` for localhost).

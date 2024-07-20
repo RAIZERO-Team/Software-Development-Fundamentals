@@ -32,6 +32,6 @@ class DatabaseManager:
             self.connection.close()
             print("Connection closed")
 
-manage = DatabaseManager('127.0.0.1', 'root', 'mody', 'film_database')
+manage = DatabaseManager('127.0.0.1', 'root', 'maher', 'film_database')
 manage.connect()
 manage.close_connection()
