@@ -1,6 +1,6 @@
 # Author: Ahmed Maher
 
-inputFile = r'F:\d\Github\Software\Software-Development-Fundamentals\Object-Oriented-Programming\17- Read and Write to a File\17- Read and Write to a File (Ahmed Maher)\Ma7er.txt'
+inputFile = r'F:\d\Github\Software\Software-Development-Fundamentals\Object-Oriented-Programming\17- Read and Write to a File\17- Read and Write to a File (Ahmed Maher)\test.txt'
 
 try:
     with open(inputFile, 'r') as file:
