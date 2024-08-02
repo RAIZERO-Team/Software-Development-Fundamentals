@@ -1,0 +1,92 @@
+// Shahd Mahmoud
+
+package composition.relationship;
+
+import java.util.*;
+public class CompositionRelationship {
+
+    public static void main(String[] args) {
+            Country c1 = new Country("Egypt");
+            State s1=new State("Cairo");
+            City city1=new City("Alex");
+      c1.addState(s1);
+        s1.addCity(city1);
+        c1.printDetails();
+        s1.printdDetailsCitys();
+        
+    }
+    
+}
+class Country{
+    private String countryName;
+   private List <State>state;
+   public Country(String countryName){
+       this.countryName=countryName;
+               this.state= new ArrayList<State>();
+   }
+   public void setcountryName( String countryName){
+       this.countryName=countryName;
+     //this.state= new ArrayList<State>();
+   }
+   public String getcountryName(){
+       return countryName;
+   }
+   public void addState(State s){
+       state.add(s);
+   
+   }
+   public void printDetails(){
+       System.out.println("States of country "+countryName);
+      for(int i=0;i<state.size();i++){
+      System.out.println(state.get(i).getStateName());
+      }
+  }
+   }
+   
+
+class State{
+    private String stateName;
+    private List<City>city;
+
+    public State(String stateName) {
+        this.stateName = stateName;
+        this.city=new ArrayList<City>();
+    }
+
+    public void setStateName(String stateName) {
+        this.stateName = stateName;
+    }
+
+    public String getStateName() {
+        return stateName;
+    }
+    public void addCity(City c){
+        city.add(c);
+    }
+    public void printdDetailsCitys(){
+        System.out.println("Cities of State:"+stateName);
+      for(int i=0;i<city.size();i++){
+      System.out.println(city.get(i).cityName);
+  
+    }
+
+    }
+}
+
+class City{
+    String cityName;
+
+    public City(String cityName) {
+        this.cityName = cityName;
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+    
+}
+
