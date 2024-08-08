@@ -1,0 +1,3 @@
+-- Author: basmala mohamed
+
+SELECT MAX (POPULATION) - MIN (POPULATION) FROM CITY;
