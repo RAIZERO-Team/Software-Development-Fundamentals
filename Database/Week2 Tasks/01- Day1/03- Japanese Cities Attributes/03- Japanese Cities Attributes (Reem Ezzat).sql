@@ -1,0 +1,3 @@
+-- Author Reem Ezzat 
+
+SELECT * FROM CITY WHERE COUNTRYCODE='JPN';

@@ -1,0 +1,3 @@
+-- Author Reem Ezzat
+
+SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT='California';
