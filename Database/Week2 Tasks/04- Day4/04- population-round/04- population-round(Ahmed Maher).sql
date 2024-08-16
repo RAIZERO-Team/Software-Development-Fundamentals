@@ -1,0 +1,3 @@
+-- Ahmed Maher 
+
+SELECT FLOOR(AVG(POPULATION)) FROM CITY;

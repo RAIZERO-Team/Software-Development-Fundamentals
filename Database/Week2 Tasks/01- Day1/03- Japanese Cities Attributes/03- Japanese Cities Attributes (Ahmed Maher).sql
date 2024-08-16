@@ -1,0 +1,3 @@
+-- Ahmed Maher 
+
+SELECT * FROM CITY WHERE COUNTRYCODE = 'JPN';
