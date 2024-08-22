@@ -1,0 +1,42 @@
+**Introduction to Data Structures**
+
+   - What are Data Structures?
+   Data structure organizes data to be used as efficiently as possible. It provides means to organize data so that it can be accessed and processed faster and more effectively.
+
+  -------------------------------------------------------------------------------------
+
+   - Importance of Data Structures.
+   1. Efficiency: Data structures help in optimizing the efficiency of data retrieval and modification. For example, choosing the right data structure can significantly reduce the time complexity of an algorithm.
+   2. Data Organization: Proper data organization is crucial in applications such as databases, operating systems, and network management.
+   3. Scalability: Efficient data structures ensure that programs can handle large amounts of data, making them scalable.
+
+   -------------------------------------------------------------------------------------
+
+   - Algorithmic Complexity
+      - Time vs Space Complexity => Time: The amount of time , Space: The amount of memory
+
+   -------------------------------------------------------------------------------------
+
+      - How to Calculate Complexity?
+      1. Define basic operations
+      2. Count the number of times basic operations are executed
+      3. Analyze loops
+      4. Ignore unimportant constants and operands
+      5. Define Big-O Notation
+
+   -------------------------------------------------------------------------------------
+
+      - Asymptotic Notation
+        - Big O Notation => the worst case (upper bound)
+        - Big-θ Notation => the average case (the upper and lower bounds)
+        - Big-Ω Notation => the best case (lower bound)
+
+   -------------------------------------------------------------------------------------
+
+      - Common Runtimes
+        - Constant => O(1)
+        - Logarithmic => O(log n)
+        - Linear => O(n)
+        - Polynomial => O(n^k)
+        - Exponential => O(2^n)
+        - Factorial => O(n!)
